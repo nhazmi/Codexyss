@@ -10,7 +10,7 @@ document.addEventListener('keydown', function (event) {
         const password = inputPassword.value;
         const request = checkIndex(username,password);
         const condition = processing(request,username,password)
-        console.log(index)
+        console.log(request)
         window.alert('wait checking for credential')
         openPage(condition)
         

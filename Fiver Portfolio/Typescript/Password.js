@@ -41,7 +41,7 @@ function processing(index,username,password){
 
 function openPage(condition) {
     if (condition) {
-        window.open('C:/Data/OneDrive/Nabil%20Hazmi/VS%20Code/Nabil/Mini%20Project/Fiver%20Portfolio/Html/HomePage.html');
+        window.open('https://nhazmi.github.io/Codexyss/Fiver%20Portfolio/Html/HomePage.html');
     }
     else return
 }

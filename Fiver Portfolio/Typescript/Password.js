@@ -1,6 +1,7 @@
 "use strict";
 const inputUsername = document.getElementById('input1');
 const inputPassword = document.getElementById('input2');
+const button = document.getElementById('button');
 const validUsername = ['nabilhazmi','aisya','balqis'];
 const validPassword = ['720530','4flat'];
 
@@ -17,6 +18,16 @@ document.addEventListener('keydown', function (event) {
     }
     else return 
 });
+
+button.onclick = function(){
+        const username = inputUsername.value;
+        const password = inputPassword.value;
+        const request = checkIndex(username,password);
+        const condition = processing(request,username,password)
+        console.log(request)
+        window.alert('wait checking for credential')
+        openPage(condition)
+}
 
 function checkIndex(username,password) {
     if (validUsername.includes(username) && validPassword.includes(password)) {

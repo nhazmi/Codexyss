@@ -1,0 +1,86 @@
+
+html{ font-family: monospace;
+    background:linear-gradient(135deg,black,midnightblue,whitesmoke) no-repeat;
+    color:whitesmoke;
+    border: whitesmoke;
+    border-radius: 20px;
+    scroll-behavior:smooth;
+
+}
+
+body{background-color: inherit;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+a{color: whitesmoke;
+    text-decoration: none;
+    
+}
+
+h1{margin: 10px auto;
+    padding: 10px; 
+    border: 2px whitesmoke solid;
+    border-radius: 100px ;
+    text-align: center;
+    width: 50%;
+    background-color: inherit;
+    top: 0;
+    color: whitesmoke;
+    position: sticky;
+    z-index: 1000;
+   
+
+}
+
+header p {text-align: center;}
+
+nav{ text-align: center;
+    line-height: 2rem;
+
+}
+
+p:hover,a:hover,h1:hover,p:focus{font-weight: bolder;}
+
+.pertama{width: 20%;
+    height: 80%;
+    position: relative;
+    top: -50%;
+    float: left;
+    border: 10px whitesmoke solid;
+    border-radius: 10px;
+}
+
+.kedua{width: 20%;
+    height: 80%;
+    position: relative;
+    top: -50%;
+    float: right;
+    border: 10px whitesmoke solid;
+    border-radius: 10px;
+}
+
+.description{
+    display: block;
+    max-width: 40rem;
+    margin-inline: auto;
+    position: relative;
+    top: 3rem;
+    text-align: center;
+
+}
+
+main p{display: block;
+    width: 60%;
+    margin-inline: auto;
+    margin-block: 6rem;
+
+}
+
+
+
+
+
+

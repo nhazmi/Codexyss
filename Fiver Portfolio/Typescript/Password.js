@@ -41,6 +41,7 @@ function processing(index,username,password){
 
 function openPage(condition) {
     if (condition) {
+        console.log('opening')
         window.open('https://nhazmi.github.io/Codexyss/Fiver%20Portfolio/Html/HomePage.html');
     }
     else return

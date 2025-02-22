@@ -11,6 +11,8 @@ document.addEventListener('keydown', function (event) {
         const password = inputPassword.value;
         const request = checkIndex(username,password);
         const condition = processing(request,username,password)
+        inputUsername.value = ''
+        inputPassword.value = ''
         console.log(request)
         window.alert('wait checking for credential')
         openPage(condition)
@@ -24,6 +26,8 @@ button.onclick = function(){
         const password = inputPassword.value;
         const request = checkIndex(username,password);
         const condition = processing(request,username,password)
+        inputUsername.value = ''
+        inputPassword.value = ''
         console.log(request)
         window.alert('wait checking for credential')
         openPage(condition)
